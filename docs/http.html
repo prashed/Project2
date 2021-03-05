@@ -3,8 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Text CSS -->
+    <link rel="stylesheet" href="../text.css">
+
 </head>
 <body>
+
+
+<!-- Navbar -->
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="../images/logo.png" alt="logo" width="320" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutme.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu animate slideDown" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="dns.html">DNS</a></li>
+                            <li><a class="dropdown-item" href="domain.html">Domains</a></li>
+                            <li><a class="dropdown-item" href="ipaddress.html">IP Addresses</a></li>
+                            <li><a class="dropdown-item" href="w3c.html">W3C</a></li>
+                            <li><a class="dropdown-item" href="http.html">HTTP & HTTPS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!-- Navbar END -->
+
+
+
+<section>
+    <h2 style="font-family: '.AppleSystemUIFontMonospaced'" class="text-center">HTTP & HTTPS</h2>
+    <h3 style="margin-left:200px; margin-right:200px;">Hypertext Transfer Protocol (Secure)</h3>
+    <p style="margin-left:200px; margin-right:200px;">When entering a website in that moment your computer starts talking to another computer called a server that is usually thousands of miles away and in milliseconds your computer asks that server for a website and that server starts to talk back to your computer in a language called HTTP. HTTP stands for hypertext transfer protocol which is a language that one computer uses to ask another computer for a document. HTTP manages the sending and receiving of HTML, media files, or anything on the web.
+
+        HTTPS which stands for hypertext transfer protocol secure, ensures that your HTTP requests are secure and protected such as when logging into a website.
+    </p>
+</section>
+
+
+
+<section>
+    <img style="margin-left: 330px" width="800px" height="300px" src="../images/http.jpg">
+</section>
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
